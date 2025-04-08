@@ -1,9 +1,163 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta http-equiv="refresh" content="0; url=./index.html" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+ 
+
 </head>
 <body>
-    Redirecting to home page...
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <img src="./assets/Kingston-Engineering-Cellore-Logo-FAculty-Plus.jpg" alt="" width="150px" height="70px" class="d-inline-block align-text-top">
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+            <span class="navbar-toggler-icon">
+
+            </span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <!-- drop down menu-->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Departments
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="./it.html">IT</a></li>
+                    <li><a class="dropdown-item" href="./cse.html">CSE</a></li>
+                    <li><a class="dropdown-item" href="./ece.html">ECE</a></li>
+                   
+                    </ul>
+                </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./admission.html">Admission</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./contact.html">Contact us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <section id="Home">
+        <div class="container mt-5 pt-5">
+            <h1>Welcome to the Kingston Engineering College</h1>
+            <p>vellore.</p>
+            <!--- casoule self moving images -->
+            <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./assets/kinstonbg.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/bg.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/bg2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+                <script>
+                
+                    // rotate the images every 2 seconds
+                    // and nowrap around when it reaches the end
+                    // of the carousel
+                
+                    document.addEventListener('DOMContentLoaded', function() {
+                      var myCarousel = document.getElementById('carouselExample');
+                      var carousel = new bootstrap.Carousel(myCarousel, {
+                        interval: 2000,
+                        wrap: true
+                      });
+                    });
+
+                    </script>
+              </div>
+            <div class="card">
+              <div class="card-body">
+                <p>Kingston Engineering College, a premier college of Vellore, was established in 2008 under the flagship of institution Duraimurugan Educational Trust. It is located in the sprawling campus of 120 aces, in Vellore City. It aims to provide an academically exhilarating environment allowing our students to enjoy a first-class educational and social experience. The College offers undergraduate programs in various branches of specialization in engineering.
+
+                  Approved by AICTE, New DelhiKingston Engineering College, a premier college of Vellore, was established in 2008 under the flagship of institution Duraimurugan Educational Trust. It is located in the sprawling campus of 120 aces, in Vellore City. It aims to provide an academically exhilarating environment allowing our students to enjoy a first-class educational and social experience. The College offers undergraduate programs in various branches of specialization in engineering.
+
+                  Approved by AICTE, New Delhi
+                  Affiliated to Anna University, Chennai  </p>
+              </div>
+            </div>
+        
+          </div>
+          <div class="row mt-5 pt-5">
+            <div class="col-md-4">
+                <div class="card card-body">
+                    <h2>PLACEMENTS</h2>
+                    <p>OUR PLACED COMPANIES ARE</p>
+                    <ul>
+                      <li>WIPRO</li>
+                      <li>INFOSYS</li>
+                      <li>TCS</li>
+                      <li>ACCENTURE</li>
+                      <li>DELL</li>
+                      <li>GOOGLE</li>
+                      <li>MICROSOFT</li>
+                      <li>AMAZON</li>
+                    </ul>
+                </div>
+            
+            </div>
+            <div class="col-md-4">
+                <div class="card card-body">
+                    <h2>TEACHING</h2>
+                    <p>well trained students by professional experience </p>
+                      <h4>Teaching facilities</h4>
+                      <ul>
+                          <li>LABS</li>
+                          <li>COMPUTER LAB</li>
+                          <li>WORKSHOPS</li>
+                          <li>LIBRARY</li>
+                          <li>CLASSROOMS</li>
+                      </ul>
+                </div>
+          
+            </div>
+            <div class="col-md-4">
+                <div class="card card-body">
+                    <h2> FACILITIES </h2>
+                    <p>Student Facilities.</p>
+                    <ul>
+                        <li>WI-FI</li>
+                        <li>HOSTEL</li>
+                        <li>TRANSPORT</li>
+                        <li>FOOD</li>
+                        <li>LIBRARY</li>
+                        <li>SPORTS</li>
+                        <li>MEDICAL</li>
+                        <li>AUDITORIUM</li>
+                        <li>PARKING</li>
+                      </ul>
+                </div>
+             
+            
+            </div>
+
+          </div>
+      </section>
+      
+    
 </body>
 </html>
