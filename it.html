@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      p{
+        font-size: 1.6rem;
+        color: white;
+      }
+      .card{
+        background-color:rgb(0, 0, 0);
+        opacity: 0.7;
+        color: white;
+      }
+      h1, h4 {
+        text-align: center;
+        margin-top: 20px;
+      }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <img src="./assets/Kingston-Engineering-Cellore-Logo-FAculty-Plus.jpg" alt="" width="150px" height="70px" class="d-inline-block align-text-top">
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+            <span class="navbar-toggler-icon">
+
+            </span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+              </li>
+              <!-- drop down menu-->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Departments
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="./it.html">IT</a></li>
+                    <li><a class="dropdown-item" href="./cse.html">CSE</a></li>
+                    <li><a class="dropdown-item" href="./ece.html">ECE  </a></li>
+                    </ul>
+                </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./admission.html">Admission</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./contact.html">Contact us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- adding it dept information-->
+      <div class="container">
+        <h1 class="text-center">IT Department</h1>
+        <div class="row">
+            <div class="col">
+                <img src="./assets/it.jpg" alt="IT Department " width="600px" height="400px" >
+            </div>
+            <div class="col">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="text-center">About IT Department</h4>
+                  <p>The Information Technology (IT) department is a dynamic and innovative field that focuses on the use of technology to manage and process information. It encompasses a wide range of areas, including software development, network administration, cybersecurity, data management, and more. The IT department plays a crucial role in supporting the technological needs of organizations and individuals.</p>
+                </div>
+              </div>
+            
+          
+            </div>
+        </div>
+
+      </div>
+</body>
+</html>

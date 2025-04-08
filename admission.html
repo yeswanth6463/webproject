@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+ 
+  <style>
+
+  
+    
+    h1, h4 {
+      text-align: center;
+      margin-top: 20px;
+    }
+    
+    .col-md-5 {
+      margin-left: 40px;
+    }
+    
+    .col-md-5 img {
+      width: 100%;
+    }
+
+    .card {
+      background-color:transparent;
+      backdrop-filter: blur(10px);
+    }
+    form{
+      color: white;
+      text-shadow: 0px 0px 0px 14px rgba(0, 0, 0, 0.5);
+      font-size: 20px;
+    }
+  </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <img src="./assets/Kingston-Engineering-Cellore-Logo-FAculty-Plus.jpg" alt="" width="150px" height="70px" class="d-inline-block align-text-top">
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+            <span class="navbar-toggler-icon">
+
+            </span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <!-- drop down menu-->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Departments
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="./it.html">IT</a></li>
+                    <li><a class="dropdown-item" href="./cse.html">CSE</a></li>
+                    <li><a class="dropdown-item" href="./ece.html">ECE</a></li>
+                   
+                    </ul>
+                </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./admission.html">Admission</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./contact.html">Contact us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <h1 class="text-center">Thanks for choosing kingston </h1>
+        <h4 class="text-center">here the information about the Admission</h4>
+        <div class="row">
+            <div class="col-md-5">
+              <div class="card">
+                <div class="card-body">
+                  <h2>Admission Process</h2>
+                  <p>Admission process is very simple and easy. You can apply online or offline.
+                      </p>
+                      <h5> online registration form </h5>
+                
+                      <form action="" method="post" class="mt-4">
+                          <h4 class="mb-3">Student Admission Form</h4>
+                          
+                          <div class="mb-3">
+                              <label for="fullName" class="form-label">Full Name</label>
+                              <input type="text" class="form-control" id="fullName" name="fullName" required>
+                          </div>
+                          
+                          <div class="mb-3">
+                              <label for="email" class="form-label">Email Address</label>
+                              <input type="email" class="form-control" id="email" name="email" required>
+                          </div>
+                          
+                          <div class="mb-3">
+                              <label for="phone" class="form-label">Phone Number</label>
+                              <input type="tel" class="form-control" id="phone" name="phone" required>
+                          </div>
+                          
+                          <div class="mb-3">
+                              <label for="course" class="form-label">Select Course</label>
+                              <select class="form-select" id="course" name="course" required>
+                                  <option value="" selected disabled>Choose a course</option>
+                                  <option value="IT">Information Technology</option>
+                                  <option value="CSE">Computer Science</option>
+                                  <option value="ECE">Electronics & Communication</option>
+                              </select>
+                          </div>
+                          
+                          <div class="mb-3">
+                              <label for="education" class="form-label">Previous Education</label>
+                              <textarea class="form-control" id="education" name="education" rows="3" required></textarea>
+                          </div>
+                          
+                          <div class="mb-3 form-check">
+                              <input type="checkbox" class="form-check-input" id="terms" name="terms" required>
+                              <label class="form-check-label" for="terms">I agree to the terms and conditions</label>
+                          </div>
+                          
+                          <button type="submit" class="btn btn-primary">Submit Application</button>
+                      </form> </div>
+              </div>
+               
+               
+            </div>
+            <div class="col-md-5">
+              <div class="card card-body">
+                <img src="./assets/king2.jpg" alt="">
+              </div>
+              
+              
+            </div>
+        </div>
+      </div>
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card card-body">
+                <h2>Our Mission</h2>
+                <p>Our mission is to provide quality education to students and help them achieve their goals.</p>
+                <p>Our mission is to provide good environment to study and achieve a student goals .</p>
+                <p>Our mission is to provide proper education with extra  activities sports.</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card card-body">
+                  <h2>Our Vision</h2>
+                  <p>Our vision is find the new talents and establish   .</p>
+                  <p>Our vision is to enhance the student knowledge and behavior .</p>
+                  <p>Our vision is to be the best educational institution in the country.</p>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card card-body">
+                  <h2>Our Values</h2>
+                  <p>Our values are honesty, integrity, and transparency.</p>
+                  <p>Our values are ethically to trained our student.</p>
+                  <p>trained to get a opportunity
+                    and get it.</p>
+                  </div>
+                </div>
+              </div>
+        </div>
+      </section>
+
+
+
+    
+<script>
+  //after getting information by form it will save as jason
+  const form = document.querySelector('form');
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const formData = new FormData(form);
+    const data = Object.fromEntries(formData.entries());
+    console.log(data);
+    //send data to local storage
+    localStorage.setItem('data', JSON.stringify(data));
+    });
+</script>
+  
+
+
+      
+    
+</body>
+</html>
