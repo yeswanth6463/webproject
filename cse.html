@@ -9,6 +9,27 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <style>
+      /* Responsive image styles */
+      .card-body img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+      }
+
+      /* Media queries for different screen sizes */
+      @media (max-width: 768px) {
+        .card-body img {
+          max-width: 90%;
+        }
+      }
+
+      @media (max-width: 576px) {
+        .card-body img {
+          max-width: 100%;
+        }
+      }
+
       .auth-form {
         background: rgba(0,0,0,0.7);
         padding: 2rem;
